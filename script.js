@@ -7,6 +7,9 @@ const movies = document.querySelector("#movieTitles");
 
 searchForm.addEventListener("submit", fetchMovies);
 
+
+
+
  async function fetchMovies(e){
       e.preventDefault();
     
