@@ -1,0 +1,70 @@
+html {
+    background: url("./assets/thumb-chihiro036.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0; 
+} 
+
+#movieTitles{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* .bg{
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+} */
+
+ /* .titleBox{
+     display: flex;
+     flex-wrap: wrap;
+     align-content: flex-end;
+   
+}  */
+
+p{
+    /* display: flex;
+    flex-direction: row;  */
+    color:black;
+}
+
+.h1Div{
+    position: fixed;
+    top: 60%;
+    left: 40%;
+}
+
+h1 {
+   text-align: center;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bg{
+    border: solid black;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row; 
+    opacity: 50%;
+    background-color: white;
+    height: 175px;
+    width: 175px;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
